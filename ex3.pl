@@ -1,0 +1,1 @@
+while(<>){$n[$.]=$_}for(sort@n){$v+=ord($&)-64while/\w/g;$r+=$v*$i++;$v=0}print"$r\n"

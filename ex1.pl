@@ -1,0 +1,1 @@
+use List::Util max;<>;while(<>){@x=split;@s=($x[0]+$s[0],map($x[$_]+max(@s[$_-1,$_]),1..@x-2),$x[-1]+$s[-1])}print max(@s)."\n"
